@@ -5,12 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GBS Portal</title>
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="app.css" />
-  <script src="../node_modules/angular/angular.js"></script>
-  <script src="app.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="app.module.js"></script>
+  <script src="navbar/navbar.module.js"></script>
+  <script src="navbar/navbar.component.js"></script>
+  <script src="need-help/need-help.module.js"></script>
+  <script src="need-help/need-help.component.js"></script>
+  <script src="newsfeed/newsfeed.module.js"></script>
+  <script src="newsfeed/newsfeed.component.js"></script>
+  <script src="search/search.module.js"></script>
+  <script src="search/search.component.js"></script>
+  <script src="services/services.module.js"></script>
+  <script src="services/services.component.js"></script>
+  <script src="tickets/tickets.module.js"></script>
+  <script src="tickets/tickets.component.js"></script>
 </head>
 <body>
-  
+  <navbar></navbar>
+  <search></search>
+  <services></services>
+  <newsfeed></newsfeed>
+  <tickets></tickets>
+  <need-help></need-help>
 </body>
 </html>
