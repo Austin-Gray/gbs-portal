@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100);
+
+body {
+  font: 14px "Roboto", sans-serif;
+}
+
+#logo {
+  height:40px;
+}
+
+.logo > p {
+  margin-left: 41px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.navbar {
+  border-top: 2px solid orange;
+}
+
+.brand-banner, .nav-footer {
+  padding: 5px 15%;
+}
+
+.profile-nav {
+  margin: 25px auto 10px;
+}
+
+.nav-btn {
+  background:none;
+  border:none;
+  margin-left: 15px;
+  padding:0;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.nav-btn:hover {
+  text-decoration: underline;
+}
+
+.nav-footer {
+  background-color: #e2e2e2;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar, .profile-nav {
+    text-align: center;
+  }
+
+  .profile-nav {
+    margin: 10px auto 5px;
+  }
+
+  .logo > p {
+    margin-left: 26px;
+  }
+
+  .nav-footer {
+    padding: 5px 0px;
+  }
+
+  .search-btn {
+    text-align: center;
+  }
+}
