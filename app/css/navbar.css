@@ -1,31 +1,27 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100);
-
-body {
-  font: 14px "Roboto", sans-serif;
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  border-top: 2px solid orange;
+  border-bottom: 0;
+  z-index: 1;
 }
-
-#logo {
+.nav-banner {
+  background-color: #ffffff;
+  padding: 5px 15%;
+}
+.nav-logo {
   height:40px;
 }
-
-.logo > p {
+.nav-brand > p {
   margin-left: 41px;
   font-size: 17px;
   font-weight: 300;
 }
-
-.navbar {
-  border-top: 2px solid orange;
-}
-
-.brand-banner, .nav-footer {
-  padding: 5px 15%;
-}
-
-.profile-nav {
+.nav-profile {
   margin: 25px auto 10px;
 }
-
 .nav-btn {
   background:none;
   border:none;
@@ -34,33 +30,28 @@ body {
   cursor: pointer;
   font-size: 11px;
 }
-
 .nav-btn:hover {
   text-decoration: underline;
 }
-
 .nav-footer {
-  background-color: #e2e2e2;
+  padding: 10px 15%;
+  background-color: #ffffffb9
 }
 
 @media only screen and (max-width: 767px) {
-  .navbar, .profile-nav {
+  .navbar, .nav-profile {
     text-align: center;
   }
-
-  .profile-nav {
-    margin: 10px auto 5px;
-  }
-
-  .logo > p {
+  .nav-brand > p {
     margin-left: 26px;
   }
-
+  .nav-profile {
+    margin: 10px auto 5px;
+  }
   .nav-footer {
     padding: 5px 0px;
   }
-
-  .search-btn {
-    text-align: center;
+  .nav-search {
+    display: none;
   }
 }

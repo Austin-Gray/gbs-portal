@@ -1,0 +1,11 @@
+/* Styles specific to each component are organized in seperate files */
+@import url(navbar.css);
+@import url(search.css);
+
+/* Google fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,300,700,500,600,100);
+
+body {
+  font: 14px "Roboto", sans-serif;
+}
