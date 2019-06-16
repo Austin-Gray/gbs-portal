@@ -1,19 +1,16 @@
 .newsfeed {
   padding: 15px 20px;
 }
-
 .news-item {
   font-size: 13px;
   margin-top: 12px;
+  border-bottom: 1px solid #e2e2e2;
 }
-
 .timestamp {
   font-size: 9px;
 }
-
-.details {
+.news-details {
   font-size: 10px;
   line-height: 1.4;
-  border-bottom: 1px solid #e2e2e2;
-  padding-bottom: 12px;
+  padding-bottom: 5px;
 }

@@ -1,0 +1,11 @@
+.tickets {
+  margin-top: 15px;
+}
+.ticket {
+  margin-top: 8px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.ticket-details {
+  font-size: 10px;
+  line-height: 1.4;
+}
