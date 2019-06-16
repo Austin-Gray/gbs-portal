@@ -3,13 +3,13 @@
   width: 100%;
   top: 0;
   margin: 0;
-  border-top: 2px solid orange;
+  border-top: 3px solid #ff9100;
   border-bottom: 0;
   z-index: 1;
 }
 .nav-banner {
   background-color: #ffffff;
-  padding: 5px 15%;
+  padding: 5px 12%;
 }
 .nav-logo {
   height:40px;
@@ -34,7 +34,7 @@
   text-decoration: underline;
 }
 .nav-footer {
-  padding: 10px 15%;
+  padding: 10px 12%;
   background-color: #ffffffb9
 }
 

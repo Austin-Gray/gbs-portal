@@ -2,6 +2,7 @@
 @import url(navbar.css);
 @import url(search.css);
 @import url(services.css);
+@import url(newsfeed.css);
 
 /* Google fonts */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100);
@@ -12,11 +13,22 @@ body {
   background-color: #f1f1f1;
 }
 .content {
-  margin: 0 15%
+  padding: 0 12%;
+  margin: 0;
 }
 .card {
+  background-color: #ffffff;
   border: 1px solid #e2e2e2;
   border-radius: 3px;
+  margin-top: 15px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  border-bottom: 3px solid #ff9100;
+  padding-bottom: 7px;
 }
 
 @media only screen and (max-width: 767px) {
