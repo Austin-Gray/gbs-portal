@@ -1,0 +1,15 @@
+.need-help {
+  margin-top: 15px;
+}
+.help-contact {
+  margin-top: 12px;
+}
+.contact-name {
+  font-size: 12px;
+  font-weight: 500;
+}
+.contact-details {
+  font-size: 10px;
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
