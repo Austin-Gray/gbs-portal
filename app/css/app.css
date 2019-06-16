@@ -1,6 +1,7 @@
 /* Styles specific to each component are organized in seperate files */
 @import url(navbar.css);
 @import url(search.css);
+@import url(services.css);
 
 /* Google fonts */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100);
@@ -8,4 +9,18 @@
 
 body {
   font: 14px "Roboto", sans-serif;
+  background-color: #f1f1f1;
+}
+.content {
+  margin: 0 15%
+}
+.card {
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+  .content {
+    margin: 0 5px;
+  }
 }

@@ -1,0 +1,16 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 12px 0;
+  background-color: #ffffff;
+}
+
+.service-btn {
+  width: 29%;
+  height: 80px;
+  background-color: #fdfdfd;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  font-size: 12px;
+}
