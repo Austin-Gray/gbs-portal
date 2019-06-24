@@ -1,6 +1,6 @@
 .search-container {
   font-family: "Quicksand", sans-serif;
-  background-image: url("../assets/office.png");
+  background-image: url("../img/office.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -52,7 +52,7 @@
     margin: 5px;
   }
   .submit-container {
-    margin: -44px 0 0 430px;
+    margin: -28px 0 0 236px;
   }
   .welcome, .title {
     font-size: 24px;
