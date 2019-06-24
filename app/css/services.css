@@ -10,4 +10,32 @@
   border: 1px solid #e2e2e2;
   border-radius: 3px;
   font-size: 12px;
+  text-align: start;
+  text-justify: start;
+}
+.btn-flex {
+  display: flex;
+  align-items: center;
+}
+.service-icon {
+  color: #1f1f3d;
+  font-size: 30px;
+  margin: 5px;
+}
+.service-title {
+  font-size: 13px;
+}
+.service-description {
+  color: #1f1f3da8;
+  font-size: 9px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .service-icon {
+    font-size: 20px;
+  }
+  .service-title {
+    font-size: 11px;
+  }
 }

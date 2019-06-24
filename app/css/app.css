@@ -28,12 +28,17 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
-  border-bottom: 3px solid #ff9100;
+  border-bottom: 3px solid #ff8800;
   padding-bottom: 7px;
+}
+.notification {
+  font-size: 8px;
+  left: -4%;
+  color: #ff8800;
 }
 
 @media only screen and (max-width: 767px) {
   .content {
-    margin: 0 5px;
+    padding: 0 3%;
   }
 }
