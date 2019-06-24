@@ -2,8 +2,10 @@
 
 ## Getting Started
 
-Run app locally using the command:
+To run this app locally, use the command:
 
 ```
 $ npm run start
 ```
+
+The webpage can be accessed at http://localhost:8000/
