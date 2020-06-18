@@ -13,7 +13,7 @@
   "author": "Austin Gray",
   "license": "ISC",
   "dependencies": {
-    "angular": "1.7.x",
+    "angular": "1.8.x",
     "bootstrap": "^3.4.1",
     "cpx": "^1.5.0",
     "http-server": "^0.11.1"
